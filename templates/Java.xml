@@ -1,0 +1,26 @@
+<templateSet group="Java">
+  <template name="testm" value="@org.junit.Test&#10;public void $A$() {&#10;    $END$&#10;}" description="Create test unit method" toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="&quot;test&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="trylock" value="try {&#10;    $lock$.lock();&#10;    $END$&#10;} catch (Exception e) {&#10;    e.printStackTrace();&#10;} finally {&#10;    $lock$.unlock();&#10;}" description="create try lock statement" toReformat="false" toShortenFQNames="true">
+    <variable name="lock" expression="" defaultValue="&quot;lock&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tryclose" value="try (&#10;    $A$&#10;) { &#10;    $END$     &#10;}" description="create 'try()' statement" toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tryclose1" value="try ($A$) { &#10;    $END$     &#10;}" description="create 'try(only one variable)' lock statement." toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
