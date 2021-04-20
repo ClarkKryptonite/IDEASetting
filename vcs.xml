@@ -10,7 +10,4 @@
     </option>
     <option name="cloneParentDir" value="$USER_HOME$/Code_Program/project_java" />
   </component>
-  <component name="VcsApplicationSettings">
-    <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
-  </component>
 </application>
