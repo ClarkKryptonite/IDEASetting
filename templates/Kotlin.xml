@@ -11,4 +11,9 @@
       <option name="KOTLIN" value="true" />
     </context>
   </template>
+  <template name="tname" value="Thread.currentThread().name" description="current thread name" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
 </templateSet>
