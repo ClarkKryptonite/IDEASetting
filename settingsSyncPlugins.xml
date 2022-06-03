@@ -60,6 +60,11 @@
             </PluginData>
           </value>
         </entry>
+        <entry key="com.jetbrains.edu">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
         <entry key="org.jetbrains.IdeaVim-EasyMotion">
           <value>
             <PluginData>
